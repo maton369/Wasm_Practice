@@ -9,4 +9,7 @@
 # wat2wasm -o simple.wasm simple.wat
 # python3 -m http.server | tee output.log
 # wat2wasm -o alert.wasm alert.wat
+# python3 -m http.server
+# wat2wasm -o calc.wasm calc.wat
+# wat2wasm -o import.wasm import.wat
 python3 -m http.server
