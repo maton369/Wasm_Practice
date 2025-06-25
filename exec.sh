@@ -19,4 +19,8 @@
 # wasm2wat target/wasm32-unknown-unknown/release/hello_rust.wasm | tee output.log
 # cargo -v build --release --target wasm32-unknown-unknown
 # wasm-pack build --target web
-ls pkg/
+# ls pkg/
+# wasm-pack build --target web
+# wget https://github.com/fiatjaf/jq-web/releases/download/0.5.1/jq.wasm.js
+# wget https://github.com/fiatjaf/jq-web/releases/download/0.5.1/jq.wasm.wasm
+python3 -m http.server
