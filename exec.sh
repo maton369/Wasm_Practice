@@ -14,4 +14,6 @@
 # wat2wasm -o import.wasm import.wat
 # python3 -m http.server
 # wat2wasm -o string.wasm string.wat
-wat2wasm -o simd.wasm simd.wat
+# wat2wasm -o simd.wasm simd.wat
+# cargo -v build --release --target wasm32-unknown-unknown
+wasm2wat target/wasm32-unknown-unknown/release/hello_rust.wasm | tee output.log
