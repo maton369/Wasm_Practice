@@ -1,0 +1,12 @@
+[package]
+edition = "2021"
+name = "import-mod"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+
+[dependencies]
