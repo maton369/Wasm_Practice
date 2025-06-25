@@ -13,4 +13,5 @@
 # wat2wasm -o calc.wasm calc.wat
 # wat2wasm -o import.wasm import.wat
 # python3 -m http.server
-wat2wasm -o string.wasm string.wat
+# wat2wasm -o string.wasm string.wat
+wat2wasm -o simd.wasm simd.wat
